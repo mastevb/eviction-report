@@ -11,7 +11,7 @@ source("analysis.R")
 
 # Summary
 
-Since 2015, there have been `r num_evictions` in the city of San Francisco. Here is a table of the zip codes most heavily impacted:
+This report focuses on evictions in San Francisco. The dataset contained `r num_evictions` of eviction notices:
 
 ```{r}
 kable(by_zip, col.names = c("Zip code", "Number of Evictions"))
